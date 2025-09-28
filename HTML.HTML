@@ -1,0 +1,170 @@
+<!DOCTYPE html> <!--To create ths one, shift + !-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css"> <!--For linking the style, css.-->
+
+</head>
+
+<body>
+    <!--Headings-->
+    <h1>Hello World</h1> <!--For kinda bold letters, the boldness decreses. It is a block element.-->
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5>Heading</h5>
+    <h6>Heading</h6>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In deserunt sed vitae. Dicta nesciunt maxime
+        fuga quos distinctio delectus magnam?</p>
+    <!--Paragraphy, lorem20...for 20 text, lorem10...for 10 text. Block element.-->
+
+    <a href="https://amazon.com" target="_blank">Hello</a> <!--This and below are inline element 
+    its a link stuff and add https:// before the direction we want to send users. 
+    Instead of adding target, just put the href and target the html, instead of adding of link and stuff like that.-->
+    <a href="About me.html">About the world</a>
+    <a href="Facebook.html">Click here to check out my Facebook</a>
+
+    <i>Hello</i> <!--Italics-->
+
+    <b>Hello</b> <!--Bold inline when compared to span.-->
+    <b>Hello</b>
+
+    <span>Hello</span>
+
+    <!--Unordered List html stuff.-->
+    <h1>Grocery List</h1>
+    <ul>
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Carrots</li>
+    </ul>
+
+    <!--Ordered List html stuff.-->
+    <h1>Leaderbord</h1>
+    <ol>
+        <li>Ronaldo</li>
+        <li>Pepsi</li>
+        <li>Vinicius</li>
+    </ol>
+
+    <!--forms stuff to fill.-->
+    <form>
+        <div> <!--div is for division like put the stuff in paragraph-->
+            <label>First name</label>
+            <input type="text" placeholder="Type your name." /> <!--Add the type as text,regular text sha, place holder for that
+            stuff in your text box that when you start to write your name it disappears.-->
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input type="email" /> <!--Add the type as email, so it can accept @ and you know sha.-->
+        </div>
+
+        <div>
+            <label>Password</label>
+            <input type="password" /> <!--Add the type as password, so it can be hidden.-->
+        </div>
+
+        <div>
+            <label>Number</label>
+            <input type="number" /> <!--Add the type as number, like choosing badge number and for numbers only.-->
+        </div>
+
+        <div>
+            <label>Date</label>
+            <input type="date" /> <!--Add the type as date, like choosing date sha.-->
+        </div>
+
+        <div>
+            <label>Message</label>
+            <textarea></textarea>
+        </div>
+
+        <div>
+            <label>Country</label>
+            <select>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Canada">Canada</option>
+                <option value="America">America</option>
+                <option value="Ghana">Ghana</option>
+                <option value="South-Africa">South-Africa</option>
+            </select>
+        </div>
+        <button>Submit</button>
+    </form>
+
+    <!--Images-->
+    <img src="paste any image link adress here.jpeg" /> <!--the alt in img is not needed.-->
+    <img src="If the image is saved in the file of the html, add .jpeg to name of image name" alt="" />
+    <img src="if it in a folder, folder/image.jpeg" alt="" />
+    <img src="if it in a folder and in a folder, folder-1/folder-2/image.jpeg" alt="" />
+
+    <!--Buttons-->
+    <div>
+        <button>Click me.</button>
+
+    </div>
+
+    <!--Span, to target a specific set of word or text in a sentence to stylewith css.-->
+    <!--style in the span is to style the html, like css.-->
+    <p>Land a job with <span style="color: red;font-weight: bold;cursor: pointer;">ASAP frontend.</span></p>
+
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, dolores omnis in, at earum
+        similique ad aspernatur voluptates autem corrupti numquam cupiditate temporibus molestias, quo cum tenetur.
+        Maiores fugit voluptates eveniet vel! Reiciendis excepturi magni, nam perferendis ullam praesentium hic numquam
+        a magnam consectetur. Non sint at dicta mollitia consequatur accusamus doloribus. Reprehenderit et voluptas,
+        nesciunt debitis harum suscipit eum.
+    </div>
+
+    <!--Box tutorial-->
+    <div class="box-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur itaque et temporibus quia
+        consequuntur minima.
+    </div>
+
+    <!--Inline/Block Element-->
+    <!--Block Element; <p>, <h1> to <h6>, <div>.They dont alow height and width.-->
+    <!--Inline Element; <a>, <span>,<button>. They allow height and width.-->
+    <h2 class="Position-test-1">CSS Crashcourse</h2>
+    <div class="parent">
+        <div class="child"></div>
+    </div> <!--You can create a div with the class straight by just adding, .the class you want
+    Example: .parent-->
+    <div class="position-testing"></div>
+    <div class="position-sticky"></div>
+    <h2 class="Position-test-2">CSS Crashcourse</h2>
+    <h2>CSS Crashcourse</h2>
+    <h2>CSS Crashcourse</h2>
+    <span>CSS</span>
+    <span>CSS-Crashcourse</span>
+
+    <h2 id="title">Welcome to my website.</h2>
+    <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum quibusdam voluptatum sapiente
+        dolor qui harum perspiciatis ab suscipit quisquam. Quam quis dignissimos quaerat similique iure nostrum dicta,
+        iste consectetur accusantium?</p>
+    <!--To create this paragraph with its class just write p.the class you want. An example: p.title-->
+
+    <button>
+        Continue Learning
+    </button>
+
+    <p class="name">Selim</p>
+    <p class="name-2">SELIM</p>
+
+    <!--The P is selector, if you want to target all the p instead of giving eacha class just taget p on the css, dont put
+    .p o, its just p-->
+    <!--Apart from class, we have id but same id cant be used for other one unlike class.-->
+    <!--On the css instead of .id name, we use #id name.-->
+    <!--Even if we have id and class in our html, the id will be the one to show cause it has more priority over class.-->
+    <!--The id after the first has more priority over the one before.-->
+    <!-- To create this type of comment spacce, cntl and space bar.-->
+    <!-- To copy and paste downward, shift alt down arrow-->
+    <!--Alt Shift F to make coding look good.-->
+    <!--type lorem60 into a div or space to give you for words or lorem10/20/30.-->
+    <!--To make the screen smaller or bigger, cntrl - and cntrl + respectively.-->
+</body>
+
+</html>

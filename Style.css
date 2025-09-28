@@ -1,0 +1,106 @@
+body {
+    height: 1000vh;
+    width: 1000wv;
+    /* THis is to the give the entire page of your design a specific height and wwidth. */
+}
+
+h1 {
+    /* The a at the end of the rgb is for transparency */
+    background-color: rgba(175, 16, 16, 0.1)
+}
+
+.box {
+    /* color */
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    color: whitesmoke;
+    /* The width is for when you change device the width will be at it max and it'll fit other device like phone,100%. */
+    /* The max-width is for telling the width, remain with 400px and fit into other device also. */
+    /* Remove the height property from the css so it can fit into the box no matter the width. */
+    /* The vh, screen height and when its 100 that 100% of the screen height and for wv, screen width
+    when its 100 or ess thats 100% screen width. */
+    /* To getthese type of comment, cntrl and slash(/) */
+
+
+    /* Fonts */
+    font-size: 20px;
+    font-weight: 500;
+    font-family: monospace, arial, sans-serif;
+    /* The font-weight can be in numbers or plain english, bold. */
+    /* We added more fonts telling the browser, yoo if you cant get that first font use the second/third. */
+
+
+    /* Border */
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    /* Instead of using the border style before the border show, we can use just one, border */
+    /* border: width style(dashed,dotted or solid; use solid most times) color */
+
+}
+
+.box-2 {
+    width: 200px;
+    height: 150px;
+    border: 8px solid red;
+    box-sizing: border-box;
+    padding: 16px;
+    margin: 16px;
+    /* Padding affect the text, margin affects the box. */
+    /* Padding: toppx rightpx buttompx leftpx, this is the same for margin.*/
+    /* If the value of the margin/padding is the same all round just put padding or margin: the valuepx */
+    /* We can also leave it as vertical and horizontal, padding or margin: verticalpx horizontalpx */
+    /* Normally,the box-sizing is content-box, but it doesnt let the box padding,border and margin fit into the height and width
+    that we want so we make the box-sizing border-box */
+
+    /* To select all the stuff in an html, like everything with an intersection,like font family you can use (*) */
+}
+
+.Position-test-1 {
+    background-color: red;
+    position: relative;
+    left: 5px;
+
+    /* This is for sizing(max-width) the screen base on the device we use, we have diffrent width for different device. */
+    /* For  small smartphones: 480px; For large smartphones: 640px; For tablet: 768px; Laptops: 1024px; Desktops: 1280px */
+}
+
+button:hover {
+    opacity: 30%;
+    /* The opacity when its 100%, not transparent all. when its 0%, completely transparent. */
+    background-color: red;
+    padding: 4px;
+    transition: padding 300ms;
+    /* If you want to give a specific style only a transition just do the above. */
+}
+
+.name::after {
+    content: "is a good boy";
+    background-color: blue;
+    margin: 8px;
+    /* Basically this function is for putting content before and after the paragraph, that after can also be before. 
+    Sha know it, how it work and just know it sha. */
+}
+
+.name-2 {
+    animation: pointdown 1000ms infinite alternate-reverse
+        /* All tbis feature is for animation and how long we want it to last, thats what the 1000ms.if you want the anime to
+    run to infinity, just add infinity. */
+        /* This is alternate-reverse is for smooth translation of the anime, so once the anime gets to 100% it doesnt just go back to 0%,
+         it will go smooth and sweet. */
+}
+
+@keyframes pointdown {
+    0% {
+        transform: translateY(o)
+            /* This is telling us that at the start of animation, make he no move at all. */
+
+    }
+
+    100% {
+        transform: translateY(16px)
+            /* This is telling us that when we start to move, we should move down by 16px */
+    }
+}
